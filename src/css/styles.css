@@ -116,6 +116,7 @@ body {
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .sorter > .text {

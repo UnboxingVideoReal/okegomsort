@@ -44,6 +44,12 @@ dataSet[dataSetVersion].options = [
     checked: false
   },
   {
+    name: "Remove Forms",
+    key: "form",
+    tooltip: "Check this to remove all forms of characters.",
+    checked: false
+  },
+  {
     name: "Remove Nameless Characters",
     key: "nameless",
     tooltip: "Check this to remove all characters without canonical names.",
@@ -51,7 +57,7 @@ dataSet[dataSetVersion].options = [
   },
   {
     name: "Remove Appearance-less Characters",
-    key: "nolook",
+    key: "notlook",
     tooltip: "Check this to remove all characters without appearances.",
     checked: false
   }
@@ -61,10 +67,124 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Nakata Kurokawa",
-    img: "Dkx6deN.png",
+    img: "vTWVKaO.png",
     opts: {
       series: [ "MC", "MCR" ],
+      notgirl: false,
       notboy: true
+    }
+  },
+  {
+    name: "Killisaki",
+    img: "ps0ac67.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notgirl: true
+    }
+  },
+  {
+    name: "If",
+    img: "nGdgpld.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Kurotsuno",
+    img: "xV2yr12.png",
+    opts: {
+      series: [ "manga", "MC", "MCR" ],
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Olivia",
+    img: "MLfxixP.png",
+    opts: {
+      series: [ "manga", "MC", "MCR" ],
+      notgirl: false,
+      notboy: true,
+      form: true
+    }
+  },
+  {
+    name: "Bis",
+    img: "hI0yINx.png",
+    opts: {
+      series: [ "manga" ],
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Elena",
+    img: "GcHmglL.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Reina",
+    img: "kFJogw2.png",
+    opts: {
+      series: [ "manga" ],
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Met",
+    img: "AMxHPVZ.png",
+    opts: {
+      series: [ "manga", "MC", "MCR", "TGG", "WatGBS", "WatGBSR" ],
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Rika Momijibayashi",
+    img: "wjO0Gea.png",
+    opts: {
+      series: [ "manga" ],
+      form: true,
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Hanten",
+    img: "8UFT9n4.png",
+    opts: {
+      series: [ "manga", "MC", "MCR" ],
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Hanten (Original)",
+    img: "dUMSVV4.png",
+    opts: {
+      series: [ "manga" ],
+      form: true,
+      notgirl: false,
+      notboy: true
+    }
+  },
+  {
+    name: "Sullivan",
+    img: "rArDtDC.png",
+    opts: {
+      series: [ "manga", "MCR", "WatGBS", "WatGBSR" ],
+      notboy: false,
+      notgirl: true
     }
   },
 ];

@@ -18,6 +18,6 @@ const dataSet = {};
 let dataSetVersion = '';
 
 /**
- * Image root, will be appended to the start of every image URL.
+ * Image root & suffix, will be appended to the start and end of every image URL.
  */
 const imageRoot = 'https://i.imgur.com/';
