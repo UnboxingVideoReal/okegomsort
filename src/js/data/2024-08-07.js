@@ -187,4 +187,113 @@ dataSet[dataSetVersion].characterData = [
       notgirl: true
     }
   },
+  {
+    name: "Maekami",
+    img: "EAQZo0s.png",
+    opts: {
+      series: [ "manga", "WatGBS", "WatGBSR" ],
+      notboy: false,
+      notgirl: true
+    }
+  },
+  {
+    name: "Shikabone",
+    img: "kGatYgq.png",
+    opts: {
+      series: [ "manga" ],
+      notboy: false,
+      notgirl: true
+    }
+  },
+  {
+    name: "Shortcake",
+    img: "jI6xz6q.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
+  {
+    name: "Chocolatecake",
+    img: "gXfPacr.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
+  {
+    name: "Montblanc",
+    img: "TsUXsfH.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
+  {
+    name: "Pasta",
+    img: "Z2rKREO.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
+  {
+    name: "Yagi",
+    img: "WDdJcuP.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: false,
+      notgirl: true
+    }
+  },
+  {
+    name: "Suimin",
+    img: "p0jB7rt.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
+  {
+    name: "Eimin",
+    img: "IpmTdTZ.png",
+    opts: {
+      series: [  ],
+      notlook: true,
+      notboy: false,
+      notgirl: true
+    }
+  },
+  {
+    name: "Envi",
+    img: "bE4VkiK.png",
+    opts: {
+      series: [ "future" ],
+      notlook: true,
+      notboy: false,
+      notgirl: true
+    }
+  },
+  {
+    name: "Envy",
+    img: "PbBZRJ5.png",
+    opts: {
+      series: [ ],
+      notlook: true,
+      form: true,
+      notboy: true,
+      notgirl: false
+    }
+  },
 ];
